@@ -1,0 +1,6 @@
+.statistic {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  gap: 5px;
+}
