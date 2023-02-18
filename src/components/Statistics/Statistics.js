@@ -1,5 +1,6 @@
 import { Message } from 'components/Notification/Notification';
 import React from 'react';
+import PropTypes from 'prop-types';
 import css from './Statistics.module.css';
 
 export class Statistics extends React.Component {
@@ -21,3 +22,9 @@ export class Statistics extends React.Component {
     );
   }
 }
+
+Statistics.propTypes = {
+  good: PropTypes.number,
+  bad: PropTypes.number,
+  nutral: PropTypes.number,
+};

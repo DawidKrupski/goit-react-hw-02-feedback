@@ -23,7 +23,7 @@ export class Widget extends React.Component {
   render() {
     return (
       <div>
-        <span> Please leave feedback</span>
+        <span>Please leave feedback</span>
         <FeedbackOptions
           handleFeedbackOption={this.handleFeedbackOption}
           state={this.state}
